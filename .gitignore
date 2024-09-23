@@ -1,0 +1,50 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vite
+dist/
+
+# WordPress
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Log files
+*.log
+
+# Build files
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Misc
+*.bak
+*.swp
+*.swo

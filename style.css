@@ -1,0 +1,23 @@
+/*
+Theme Name: Agnostic Boilerplate
+Theme URI: https://github.com/danielrsnell/agnostic-boilerplate
+Author: Daniel R Snell
+Author URI: https://danielrsnell.com
+Description: A versatile WordPress boilerplate theme for creating WooCommerce and non-WooCommerce sites using Vite, Timber Twig, Tailwind, SCSS, AlpineJS, and HTMX.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: agnostic-boilerplate
+Tags: custom, boilerplate, woocommerce, vite, timber, twig, tailwind, scss, alpinejs, htmx
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* 
+Note: The main styling for this theme will be handled by Tailwind and SCSS.
+This file is primarily for theme information and any critical CSS that needs to be loaded immediately.
+*/

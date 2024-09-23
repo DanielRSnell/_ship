@@ -1,0 +1,8 @@
+<div class="header-content">
+    <h1><a href="{{ site.url }}">{{ site.name }}</a></h1>
+    <nav>
+        {% for item in menu.items %}
+            <a href="{{ item.link }}">{{ item.title }}</a>
+        {% endfor %}
+    </nav>
+</div>
