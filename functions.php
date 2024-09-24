@@ -14,16 +14,6 @@ function woocommerce_support()
     add_theme_support('woocommerce');
 }
 
-add_filter('woocommerce_template_loader_files', 'custom_woocommerce_template_loader_files', 10, 2);
-
-function custom_woocommerce_template_loader_files($templates, $template_name)
-{
-    if ($template_name === 'archive-product.php') {
-        array_unshift($templates, 'archive-product.php');
-    }
-    return $templates;
-}
-
 class ThemeManager
 {
     private $timber_context;
